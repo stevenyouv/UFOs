@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UFO</title>
+    <title>UFO Sightings</title>
     <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"
     />
+    <style>
+        p    {color: white;}
+        h1 {color: white;}
+        h1 {text-align: center;}
+        h3 {color:white;}
+        table {color:white;}
+        a {color:white;}
+        li {color:darkblue;}
+      </style>
     <link rel="stylesheet" href="static/js/style.css"/>
 </head>
 <body class="bg-dark">
@@ -37,45 +46,36 @@
         <div class="container-fluid">
             <div class="row">
               <div class="col-md-3">
-                <div class="filters">
-                  <form class="bg-dark">
-                    <div class="form-group">
-      
-      
-                      <p class="text-center">Filter Search</p>
-                      <ul class="list-group">
-                        <li class="list-group-item bg-dark">
-                          <label for="date">Enter Date</label>
-                          <input type="text" placeholder="1/10/2010" id="datetime" />
-                        </li>
-                        <li class="list-group-item bg-dark">
-                          <label for="city">Enter a City</label>
-                          <input type="text" id="city" class="form-control" placeholder="roswell" />
-                        </li>
-                        <li class="list-group-item bg-dark">
-                          <label for="state">Enter a State</label>
-                          <input type="text" id="state" class="form-control" placeholder="ca" />
-                        </li>
-                        <li class="list-group-item bg-dark">
-                          <label for="country">Enter a Country</label>
-                          <input type="text" id="country" class="form-control" placeholder="us" />
-                        </li>
-                        <li class="list-group-item bg-dark">
-                          <label for="shape">Enter a Shape</label>
-                          <input type="text" id="shape" class="form-control" placeholder="circle" />
-                        </li>
-                      </ul>
-      
-      
-                    </div>
+                <form>
+                    <p>Filter Search</p>
                   </form>
-                </div>
+                  <ul class="list-group">
+
+                </ul>
+                <li class="list-group-item">
+                    <label for="date">Enter Date</label><br>
+                    <input type="text" placeholder="1/10/2010" id="datetime" />
+                </li>
+                <li class = "list-group-item">
+                  <label for="city">Enter City</label><br>
+                    <input type="text" placeholder="roswell" id="city" />
+                </li><br>
+                <li class = "list-group-item">
+                  <label for="state">Enter State</label><br>
+                    <input type="text" placeholder="ca" id= "state" />
+                </li><br>
+                <li class = "list-group-item">
+                  <label for="country">Enter Country</label>
+                    <input type="text" placeholder="us" id="country" />
+                </li><br>
+                <li class = "list-group-item">
+                  <label for="shape">Enter Shape</label><br>
+                    <input type="text" placeholder="circle" id="shape" />
+                </li><br>
               </div>
-      
-              <!-- Table -->
               <div class="col-md-9">
                 <table class="table table-striped">
-                  <thead>
+                    <thead>
                     <tr>
                       <th>Date</th>
                       <th>City</th>

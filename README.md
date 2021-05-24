@@ -13,7 +13,7 @@ As our client scrolls down the page they will be able to see the data and filter
 
 ![image](https://user-images.githubusercontent.com/78937719/119295112-9ed79700-bc1b-11eb-9e84-1b2c4df2f198.png)
 
-##Summary
+## Summary
 We have created a page that is simple, clean, and allows users to search and filter through the sitings within our dataset using the search bars created.  A drawback of this page is the limitation of the dataset.  The dataset only takes place over the course of two weeks and only takes place throughout different parts of the United States, yet there is a search for date and country indicating to the user the the dataset is more broad than it is.  
 
 A recommendation would be to indicate the narrow scope of the data set or to webscrape other existing datasets from other pages and incorporate it into this one so that that the amount of data to search from could be  more extensive and give more credibility to belief that UFOs do exist and that the sightings are not isolated.  
